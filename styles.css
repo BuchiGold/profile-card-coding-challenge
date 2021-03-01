@@ -1,0 +1,31 @@
+.main-picture {
+    height: 800px;
+    width: 1400px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ /**** for medium sized screens *****/
+ @media  (min-width: 992px) and (max-width: 1199px) {
+     .main-picture {
+         height: 100%;
+         width: 100%;
+     }
+ } 
+
+ /***** for small screens *****/
+ @media  (min-width: 768px) and (max-width: 991px) {
+     .main-picture {
+         height: 100%;
+         width: 100%;
+     }
+ }
+
+ /***** for extra small screens *****/
+ @media  (max-width: 767px) {
+     .main-picture {
+         height: 100%;
+         width: 100%;
+     }
+ }
